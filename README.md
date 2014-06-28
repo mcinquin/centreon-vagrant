@@ -1,6 +1,8 @@
 centreon-vagrant
 ================
 
+*Box in progress...*
+
 Central architecture
 --------------------
 One central installed with CES (Centreon Enterprise Server) :
