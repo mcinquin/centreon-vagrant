@@ -34,8 +34,8 @@ Vagrant, Virtualbox
     * http://...
 2. Download the Vagrantfile and adapt to your box (config.vm.box = "ces3-central-x86_64")
 3. Execute following commands (adapt the command to your box) :
-    ```
-    vagrant add box ces3-central-x86_64 ces3-central-x86_64.box
-    vagrant up
-    vagrant ssh
-    ```
+```
+vagrant add box ces3-central-x86_64 ces3-central-x86_64.box
+vagrant up
+vagrant ssh
+```
