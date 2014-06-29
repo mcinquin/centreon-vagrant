@@ -1,6 +1,6 @@
 # centreon-vagrant #
 
-## review ##
+## Review ##
 ### ces3-central-x86_64 ###
 Centreon central installed with CES3 (Centreon Enterprise Server) :
 * CentOS 6.5 (2vCPU, 4Go RAM, 32Go Drive)
@@ -29,11 +29,13 @@ Centreon poller installed with CES3 (Centreon Enterprise Server) :
 Vagrant, Virtualbox
 
 ## Installation ##
-- Download the Centreon Vagrant box :
+1. Download the Centreon Vagrant box :
     * http://...
     * http://...
-- Download the Vagrantfile and adapt to your box (config.vm.box = "ces3-central-x86_64")
-- Execute following commands (adapt the command to your box) :
+2. Download the Vagrantfile and adapt to your box (config.vm.box = "ces3-central-x86_64")
+3. Execute following commands (adapt the command to your box) :
+    ```
     vagrant add box ces3-central-x86_64 ces3-central-x86_64.box
     vagrant up
     vagrant ssh
+    ```
