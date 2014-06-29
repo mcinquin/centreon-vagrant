@@ -21,7 +21,6 @@ Centreon poller installed with CES3 (Centreon Enterprise Server) :
 * Centreon Engine 1.3.7
 * Centreon Broker 2.6.2
 * Centreon Connector 1.0.2
-* Centreon Syslog Server 1.2.5
 * Centreon Plugins
 
 ## Requirements ##
@@ -32,7 +31,7 @@ Vagrant, Virtualbox
 1. Download the Centreon Vagrant box :
     * https://www.dropbox.com/s/lo3l98zc27weoju/ces3-central-x86_64.box
     * http://...
-2. Download the Vagrantfile and adapt to your box (config.vm.box = "ces3-central-x86_64")
+2. Download the Vagrantfile and adapt to your box (config.vm.box = "ces3-central-x86_64" or config.vm.box = "ces3-central-x86_64")
 3. Execute following commands (adapt the command to your box) :
 ```
 vagrant add box ces3-central-x86_64 ces3-central-x86_64.box
