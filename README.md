@@ -30,7 +30,7 @@ Vagrant, Virtualbox
 ## Installation ##
 1. Download the Centreon Vagrant box :
     * https://www.dropbox.com/s/lo3l98zc27weoju/ces3-central-x86_64.box
-    * http://...
+    * https://www.dropbox.com/s/l0sanhq67qtx412/ces3-poller-x86_64.box
 2. Download the Vagrantfile and adapt to your box (config.vm.box = "ces3-central-x86_64" or config.vm.box = "ces3-central-x86_64")
 3. Execute following commands (adapt the command to your box) :
 ```
